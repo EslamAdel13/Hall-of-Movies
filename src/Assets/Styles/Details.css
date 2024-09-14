@@ -5,6 +5,10 @@ section{
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-attachment: fixed;
+    background-size:cover ;
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
 }
 
 
@@ -18,7 +22,6 @@ section{
 
 }
 .details{
-
     margin: 0; 
     padding: 0;
     width: 30%;
