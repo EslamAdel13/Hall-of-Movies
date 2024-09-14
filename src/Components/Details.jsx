@@ -13,6 +13,7 @@ const Details = () => {
 
     useEffect(() => {
         SingleProduct();
+        // eslint-disable-next-line
     }, [id]);
 
     return (
