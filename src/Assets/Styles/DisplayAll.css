@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.image-wrapper{
+    max-width: 100%;
+    height: 80%;
+    margin-bottom: 10px;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    border-start-start-radius: 60px;
+
+}
+.card{
+    text-align: center;
+    width: 20%;
+    margin: 15px;
+    border-start-start-radius: 60px;
+    border-end-end-radius: 60px;
+
+}
+
+.btn {
+    background-color: #28191a;
+    color: #ffffff;
+    padding: 20px 20px;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 0 60px 0; 
+    border: none;
+  }
+  
+  .btn:hover {
+    background-color: #c6a7ab !important; 
+  }
+  

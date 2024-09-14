@@ -1,0 +1,8 @@
+.main{
+    margin: 50px;
+    min-height: 600px;
+    background-image: url("../imgs/Main.png");
+    background-size: cover;
+    border-radius: 50px;
+
+}

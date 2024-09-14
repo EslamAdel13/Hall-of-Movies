@@ -1,0 +1,35 @@
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.img-wrapper{
+    width: 100%;
+}
+
+.detail-img{
+    width: 100%;
+    border-start-start-radius: 60px;
+
+}
+.details{
+
+    margin: 0; 
+    padding: 0;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    border: 1px #4e4e4e solid;
+    margin: 15px;
+    border-start-start-radius: 60px;
+    border-end-end-radius: 60px;
+}
+

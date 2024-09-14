@@ -1,0 +1,14 @@
+.bg-body-tertiary,a,.navbar-brand ,.navbar, .navbar-expand-lg, .navbar-light{
+
+ background-color: #28191a !important;
+ color: rgb(255, 255, 255) !important;
+}
+
+.navbar-brand{
+    padding-top: 10px;
+}
+
+div.dropdown-menu.show{
+    background-color: #28191a !important;
+
+}
