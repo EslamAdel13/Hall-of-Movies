@@ -5,15 +5,15 @@ const Details = () => {
     let { id } = useParams();
     let [product, setProduct] = useState({});
 
-    const SingleProduct = () => {
-        return fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=11d04016ca44ea31c5164e8ad6bf18e1`)
-            .then((res) => res.json())
-            .then((json) => setProduct(json));
-    };
+    
 
     useEffect(() => {
+        const SingleProduct = () => {
+            return fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=11d04016ca44ea31c5164e8ad6bf18e1`)
+                .then((res) => res.json())
+                .then((json) => setProduct(json));
+        };
         SingleProduct();
-        // eslint-disable-next-line
     }, [id]);
 
     return (
